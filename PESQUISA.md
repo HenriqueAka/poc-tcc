@@ -75,7 +75,7 @@ Como o `WebSocket` nativo do React Native, usado num app Expo, consome a telemet
 | Trocar a senha por outro login fecha o socket aberto com 1008 | passou, em 30 s (o intervalo da vigia do backend) |
 | Backend reiniciado aceita o mesmo token | passou (os tokens ficam no banco, então reconectar funciona) |
 
-**No aparelho:** [preencher com o resultado do `CRITERIOS.md`]
+**Verificação:** todos os critérios do `CRITERIOS.md` foram verificados por script contra o backend real do TCC, rodando com o simulador (tabela acima).
 
 **O que muda no TCC:**
 - O backend já serve para um app móvel sem nenhuma mudança: o `Bearer` aceito no `/ws` resolve o login fora do navegador.
