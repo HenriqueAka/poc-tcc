@@ -53,7 +53,7 @@ Como o `WebSocket` nativo do React Native, usado num app Expo, consome a telemet
 - Pedido: configurar o servidor MCP do Expo seguindo a apostila.
 - O que veio: a apostila diz que o MCP "exige apenas uma conta Expo gratuita".
 - Como percebi: a página oficial diz duas vezes que o Expo MCP Server exige um plano pago do EAS.
-- O certo: [preencher depois de testar: conectou com a conta gratuita ou não?]
+- O certo: vale a documentação oficial: o Expo MCP Server exige plano pago do EAS. Não deu para conectar o MCP no PC da faculdade, porque nem o login do Expo pelo CLI funcionou lá (ver "No aparelho").
 
 ### 4. [Erro do Copilot no meu teste]
 - Pedido: [o que pedi ao Copilot em modo Agent]
