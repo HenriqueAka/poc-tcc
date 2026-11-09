@@ -54,13 +54,12 @@ Como o `WebSocket` nativo do React Native, usado num app Expo, consome a telemet
 - O que veio: a apostila diz que o MCP "exige apenas uma conta Expo gratuita".
 - Como percebi: a página oficial diz duas vezes que o Expo MCP Server exige um plano pago do EAS.
 - O certo: vale a documentação oficial: o Expo MCP Server exige plano pago do EAS. Não deu para conectar o MCP no PC da faculdade, porque nem o login do Expo pelo CLI funcionou lá (ver "No aparelho").
-
-### 4. [Erro do Copilot no meu teste]
-- Pedido: [o que pedi ao Copilot em modo Agent]
-- O que veio: [a resposta errada]
-- Como percebi: [erro de compilação, documentação, teste no aparelho]
-- O certo: [o que a documentação confirma]
-
+  
+### 4. Comando de instalação que não existia nesse Python
+- Pedido: como instalar o Python 3.14 pelo terminal no PC da faculdade, que já tinha o 3.15.
+- O que veio: a IA (Claude) mandou rodar `py install 3.14`, dizendo que o `py` instalado era o novo instalador do Python.
+- Como percebi: o cmd respondeu que o comando `install` não existe no `py.exe` legado.
+- O certo: o `py install` só existe no novo Python install manager; com o lançador antigo, o caminho é baixar o "Windows installer (64-bit)" do 3.14 em python.org. Além disso, a IA não avisou de primeira que o Python 3.15 era novo demais para as dependências do backend (o `pyyaml` não tinha versão pronta e o `pip install` falhou).
 ## Resultado e próximos passos no TCC
 
 **Testado contra o backend real do TCC** (`executar.py --sim`, PostgreSQL 16), usando o mesmo `lib/servidor.ts` do app, num script Node:
