@@ -43,7 +43,7 @@ Se a demonstração ao vivo falhar, passar o vídeo de 1 minuto.
 - A IA tirou uma conversão de tipo necessária: o runtime aceita headers, mas o TypeScript do Expo usa os tipos do DOM. O `tsc` pegou.
 - Uma documentação não oficial apareceu na busca como se fosse a do React Native; a confirmação veio do código-fonte.
 - A apostila diz que o MCP do Expo é gratuito; a página oficial diz que exige plano pago.
-- [o erro do Copilot que você registrar]
+   A IA mandou rodar `py install 3.14`, que não existe no lançador antigo; o certo era o instalador do python.org.
 
 ## 6. Próximos passos (1 min)
 - O backend não precisou de mudança nenhuma: o Bearer no `/ws` já resolve.
